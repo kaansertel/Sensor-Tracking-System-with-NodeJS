@@ -1,6 +1,11 @@
 # Sensor Tracking System
 NodeJS ile Web programlama dersi kapsamında geliştirilmiş bir projedir. `Sensor takip sistemi`, kullanıcıların belirttiği `Merkez Nokta Konumu` ve `Yarıçap` değişkenine göre belirli bir alan içerisinde belirtilen `Sensor Tipi` ve `Sensor Sayısına` göre sensor oluşturmamıza olanak tanır. Sensor oluşturulurken ayrıca kullanıcıdan `Sensor Raporlama Sıklığı` değerinin girilmesi istenir. Oluşturulan Sensorler belirtilen raporlama sıklığına göre kayıt oluşturup kullanıcıya listelemektedir. Kullanıcı sensorlerden gelen bu verileri gerçek zamanlı olarak takip edebilmektedir.
 
+## Proje Ekibi
+- [Kaan Sertel](https://github.com/kaansertel)
+- [Aslıhan Akbulut](https://github.com/aslihanakbulut)
+- [İrem Sertel](https://github.com/iremsertel)
+
 
 ## `Sensor Oluşturma`
 ![Sensor Olusturma](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Sensor_olusturma.png)
@@ -49,11 +54,6 @@ Programımız ***http://localhost:3000/***  adresinde çalışacaktır
 Proje yapısı aşağıdaki gibidir
 
 ![Dosyalama](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Dosyalama.png)
-
-## Proje Ekibi
-- [Kaan Sertel](https://github.com/kaansertel)
-- [Aslıhan Akbulut](https://github.com/aslihanakbulut)
-- [İrem Sertel](https://github.com/iremsertel)
 
 
 
