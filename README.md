@@ -5,12 +5,12 @@ NodeJS ile Web programlama dersi kapsamında geliştirilmiş bir projedir. `Sens
 ## `Sensor Oluşturma`
 ![Sensor Olusturma](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Sensor_olusturma.png)
 ```sh
-Gerekli bilgiler doldurulur.
+Gerekli bilgiler doldurulur
 ```
 ![Sensor Olusturma2](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Sensor_Olusturma_02.png)
 ```sh
-Sensorler Oluşturulur. 
-Başka bir Sensor oluşturmak istersek. Önceki X ve Y noktaları ve Yarıçap bilgisi bize gösterilir.
+Sensorler Oluşturulur
+Başka bir Sensor oluşturmak istersek. Önceki X ve Y noktaları ve Yarıçap bilgisi bize gösterilir
 ```
 ![Sensor Olusturma3](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Sensor_Olusturma_03.png)
 
@@ -19,8 +19,8 @@ Başka bir Sensor oluşturmak istersek. Önceki X ve Y noktaları ve Yarıçap b
 
 ## `Sensor Detayları`
 ```sh
-Sensor detayları listelenir. 
-Kullanıcı gerçek zamanlı olarak bu verileri takip eder.
+Sensor detayları listelenir
+Kullanıcı gerçek zamanlı olarak bu verileri takip eder
 ```
 ![Sensor Detay]https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/2.png)
 ![Sensor Detay]https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/3.png)
@@ -31,13 +31,13 @@ Kullanıcı gerçek zamanlı olarak bu verileri takip eder.
 ## Projeyi Çalıştırma
 Proje dizinine geçin: **`cd NodeJSProje`**
 Gerekli indirmeleri yapın: **`npm install`**
-Düzenlemeler: **`"app.js"`** içerisindeki **`const dbURL = 'mongodb+srv://kaan:asd123@nodejs.dlvdw.mongodb.net/node-sensor?retryWrites=true&w=majority'`** veritabanı bağlantısını kendinize göre yapılandırınız.
-Çalıştırma: **`node app.js`** yazarak programımızı çalıştırabilirsiniz.
+Düzenlemeler: **`"app.js"`** içerisindeki **`const dbURL = 'mongodb+srv://kaan:asd123@nodejs.dlvdw.mongodb.net/node-sensor?retryWrites=true&w=majority'`** veritabanı bağlantısını kendinize göre yapılandırınız
+Çalıştırma: **`node app.js`** yazarak programımızı çalıştırabilirsiniz
 
-Programımız ***http://localhost:3000/***  adresinde çalışacaktır.
+Programımız ***http://localhost:3000/***  adresinde çalışacaktır
 
 ## Proje Yapısı
-Proje yapısı bu şekildedir.
+Proje yapısı bu şekildedir
 ![Dosyalama]https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Dosyalama.png)
 
 ## Proje Ekibi
