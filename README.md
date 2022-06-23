@@ -22,10 +22,10 @@ Başka bir Sensor oluşturmak istersek. Önceki X ve Y noktaları ve Yarıçap b
 Sensor detayları listelenir
 Kullanıcı gerçek zamanlı olarak bu verileri takip eder
 ```
-![Sensor Detay]https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/2.png)
-![Sensor Detay]https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/3.png)
-![Sensor Detay]https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/4.png)
-![Sensor Detay]https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/5.png)
+![Sensor Detay](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/2.png)
+![Sensor Detay](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/3.png)
+![Sensor Detay](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/4.png)
+![Sensor Detay](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/5.png)
 
 
 ## Projeyi Çalıştırma
