@@ -6,7 +6,7 @@ NodeJS ile Web programlama dersi kapsamında geliştirilmiş bir projedir. `Sens
 - [Aslıhan Akbulut](https://github.com/aslihanakbulut)
 - [İrem Sertel](https://github.com/iremsertel)
 
-
+   
 ## `Sensor Oluşturma`
 ![Sensor Olusturma](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Sensor_olusturma.png)
 ```sh
