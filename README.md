@@ -16,6 +16,11 @@ Başka bir Sensor oluşturmak istersek. Önceki X ve Y noktaları ve Yarıçap b
 
 ## `Sensor Listeleme`
 ![Sensor Listeleme](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Sensor_Listesi_01.png)
+```sh
+Bütün sensorlerin kullanıldıgı durum
+```
+![Sensor Listeleme](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/SensorListesiHepsi.png)
+
 
 ## `Sensor Detayları`
 ```sh
