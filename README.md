@@ -47,6 +47,7 @@ Programımız ***http://localhost:3000/***  adresinde çalışacaktır
 
 ## Proje Yapısı
 Proje yapısı bu şekildedir
+
 ![Dosyalama](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Dosyalama.png)
 
 ## Proje Ekibi
