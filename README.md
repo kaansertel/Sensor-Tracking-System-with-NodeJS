@@ -9,15 +9,16 @@ Gerekli bilgiler doldurulur
 ```
 ![Sensor Olusturma2](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Sensor_Olusturma_02.png)
 ```sh
-Sensorler Oluşturulur
-Başka bir Sensor oluşturmak istersek. Önceki X ve Y noktaları ve Yarıçap bilgisi bize gösterilir
+Sensorler oluşturulur
+Başka bir Sensor oluşturmak istersek;
+Önceki X ve Y noktaları ve Yarıçap bilgisi bize gösterilir
 ```
 ![Sensor Olusturma3](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Sensor_Olusturma_03.png)
 
 ## `Sensor Listeleme`
 ![Sensor Listeleme](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Sensor_Listesi_01.png)
 ```sh
-Bütün sensorlerin kullanıldıgı durum
+Bütün sensorlerin kullanıldığı durum
 ```
 ![Sensor Listeleme](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/SensorListesiHepsi.png)
 
