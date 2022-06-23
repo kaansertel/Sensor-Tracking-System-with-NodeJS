@@ -51,7 +51,7 @@ Düzenlemeler: **`"app.js"`** içerisindeki **`const dbURL = 'mongodb+srv://kaan
 Programımız ***http://localhost:3000/***  adresinde çalışacaktır
 
 ## Proje Yapısı
-Proje yapısı aşağıdaki gibidir
+Proje yapısı aşağıdaki gibidir.
 
 ![Dosyalama](https://github.com/kaansertel/Sensor-Tracking-System-with-NodeJS/blob/main/image/Dosyalama.png)
 
