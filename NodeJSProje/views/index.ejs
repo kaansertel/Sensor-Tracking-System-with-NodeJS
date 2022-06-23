@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <%-include('./inc/css')%>
+    
+</head>
+<body>
+    <!--
+    <form action="/add" method="post">
+        <input type="number" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57) || event.charCode ==45 )" name="xNokta" placeholder="X Noktası" required>
+        <input type="number" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57) || event.charCode ==45 )" name="yNokta" placeholder="Y Noktası" required>
+        <input type="number" min="1" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" name="YariCap" placeholder="Yaricap" required>
+        <input type="number" name="Raporlama" placeholder="Raporlama Sıklığı" required>
+        <input type="number" min="1" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" name="SensorSayisi" placeholder="Sensor Sayisi" required>
+        <input type="text" name="SensorTipi" placeholder="Sensor Tipi" required>
+        <input type="submit" value="Kaydet">
+    </form>
+    -->
+        <%-include('./inc/headerAndNav')%>
+    
+        <div class="pusher">
+          <div class="ui basic segment">
+            <div class="ui horizontal divider"></div>
+            <form class="ui form segment" action="/add" method="post">
+              <div class="two fields">
+                <div class="field">
+                  <label>X Noktası <% if(!(x == undefined)){%> (Belirlenen x= <%=x%>) <%}%></label>
+                  <input type="number" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57) || event.charCode ==45 )" name="xNokta" placeholder="X Noktası" required>
+                </div>
+                <div class="field">
+                    <label>Y Noktası <% if(!(y == undefined)){%> (Belirlenen y= <%=y%>) <%}%></label>
+                    <input type="number" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57) || event.charCode ==45 )" name="yNokta" placeholder="Y Noktası" required>
+                  </div>
+              </div>
+              <div class="two fields">
+                <div class="field">
+                  <label>Yarıçap <% if(!(r == undefined)){%> (Belirlenen r= <%=r%>) <%}%></label>
+                  <input type="number" min="1" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" name="YariCap" placeholder="Yaricap" required>
+                </div>
+                <div class="field">
+                  <label>Raporlama Sıklığı</label>
+                  <input type="number"  step="any" min="1" onkeypress="return (event.charCode !=45)" name="Raporlama" placeholder="Raporlama Sıklığı" required>
+                </div>
+              </div>
+              <div class="field">
+                <label>Sensör Sayısı</label>
+                <input type="number" min="1" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" name="SensorSayisi" placeholder="Sensor Sayisi" required>
+              </div>
+              <div class="field">
+                <label>Sensör Tipi</label>
+                <select name="SensorTipi" class="ui dropdown">
+                  <option value="Metan">Metan</option>
+                  <option value="Sıcaklık">Sıcaklık</option>
+                  <option value="Nem">Nem</option>
+                  <option value="Yağmur">Yağmur</option>
+                </select>
+              </div>
+              <input class="ui primary submit button" type="submit" value="Kaydet">
+              <div class="ui error message"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    
+
+
+</body>
+</html>

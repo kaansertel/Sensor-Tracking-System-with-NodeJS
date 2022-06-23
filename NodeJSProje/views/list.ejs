@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <%-include('./inc/css')%>
+</head>
+<body>
+    <%-include('./inc/headerAndNav')%>
+    <div class="pusher">
+        <div class="ui basic segment">
+    <section>
+    <table class="ui celled table ">
+        <thead>
+          <tr><th>Sensör Türü</th>
+          <th>Sensör Konumu</th>
+          <th>Sensör Raporlama Sıklığı</th>
+          <th>Aksiyonlar</th>
+        </tr></thead>
+        <tbody>
+            <% sensors.forEach(sensor => { %>
+            <tr>
+                <td data-label="Name"> <a href="/detailList/<%=sensor._id%>/<%=sensor.Sensor_Raporlama_Sıklıgı%>"><%=sensor.Sensor_Turu%></a></td>
+                <td data-label="Name"><%=sensor.Sensor_Konumu%></td>
+                <td data-label="Name"><%=sensor.Sensor_Raporlama_Sıklıgı%></td>
+                <td><a class="del" data-doc="<%=sensor._id%>">Sil</a></td>
+            </tr>
+               <% }) %>
+        </tbody>
+      </table>
+    </section>
+</div>
+</div>
+      <script>
+        const del = document.querySelectorAll('a.del')
+        const delLinks = [].slice.call(del)
+
+        delLinks.forEach((item, i) => {
+        item.addEventListener('click' , (e) => {
+        const endpoint = `/delete/${item.dataset.doc}`
+
+        fetch(endpoint, {
+            method: 'DELETE'
+        })
+        .then((response) => response.json())
+        .then((data) => window.location.href = data.link)
+        .catch((err) => {
+            console.log(err)
+        })
+    })
+        })
+    </script>
+</body>
+</html>

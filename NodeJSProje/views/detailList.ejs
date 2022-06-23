@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <%-include('./inc/css')%>
+</head>
+<body>
+    <%-include('./inc/headerAndNav')%>
+    <div class="pusher">
+        <div class="ui basic segment">
+    <section>
+    <table class="ui celled table ">
+        <thead>
+            <h3>Sensör Raporlama Sıklığı: <b id="saniye"><%=rapor%></b>sn</h3>
+          <tr>
+            <th>Duman</th>
+            <th>Co2</th>
+            <th>Toz</th>
+            <th>O2</th>
+            <th>Zaman Damgası</th>
+        </tr></thead>
+        <tbody>
+            <% details.forEach(detail => { %>
+                <tr>
+                    <td data-label="Name"> <%=detail.Duman%></td>
+                    <td data-label="Name"><%=detail.CO2%></td>
+                    <td data-label="Name"><%=detail.Toz%></td>
+                    <td data-label="Name"><%=detail.O2%></td>
+                    <td data-label="Name"><%=detail.createdAt%></td>
+                </tr>
+                   <% }) %>
+        </tbody>
+      </table>
+    </section>
+</div>
+</div>
+<script>
+    const saniye = document.querySelector('#saniye').textContent
+    setInterval(() => {
+        window.location.reload(false);
+    }, (saniye * 1000));
+
+    </script>
+</body>
+</html>
