@@ -34,9 +34,12 @@ Kullanıcı gerçek zamanlı olarak bu verileri takip eder
 
 
 ## Projeyi Çalıştırma
-<p>Proje dizinine geçin: **`cd NodeJSProje`** <p>
+Proje dizinine geçin: **`cd NodeJSProje`**
+
 Gerekli indirmeleri yapın: **`npm install`**
+
 Düzenlemeler: **`"app.js"`** içerisindeki **`const dbURL = 'mongodb+srv://kaan:asd123@nodejs.dlvdw.mongodb.net/node-sensor?retryWrites=true&w=majority'`** veritabanı bağlantısını kendinize göre yapılandırınız
+
 Çalıştırma: **`node app.js`** yazarak programımızı çalıştırabilirsiniz
 
 Programımız ***http://localhost:3000/***  adresinde çalışacaktır
